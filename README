@@ -14,15 +14,13 @@
 
 ##### INTRODUCTION
 ----------
-Project 1: Relational Algebra Operators
-This project contains various operators of relational algebra implemented in Java 17. Completed for CSCI 6370 Database Management at the University of Georgia.
+Project 2: Linear Hashmap indexing and RA operators optimizing
+This project contains Linear hashmap indexing implementation and optimization of the various operators of relational algebra implemented in Java 17. Completed for CSCI 6370 Database Management at the University of Georgia.
 
-In the project the relational algebra operators are demonstrated on a database of movie details.
-Therefore the code was given by the instructor except the operators select, project, union, minus, and join operations were to be implemented by group members.
+We have created and commented the method calls in LinHashMap.java. The MapType mType has been changed to LinHashmap from TREE_MAP to check the optimization capability and implementation of the hash indexing.
 
 ##### REQUIREMENTS
 ----------
-
 This code should run with any Java version that is installed in your system.
 
 ### JAVA 17
@@ -48,7 +46,7 @@ We are using sbt for building, compilation and running project.
 
 ##### IMPLEMENTATION
 ----------
-We had implemented five Relational algebra operators on the database, they are
+We had implemented Split and Set method in the LinHashMap.java and optimized the five Relational algebra operators on the database, they are
 	1.project
 	2.Select
 	3.Union
@@ -57,6 +55,7 @@ We had implemented five Relational algebra operators on the database, they are
 
 ##### CONTRIBUTORS
 ----------
-1) Project and minus operations are coded by Likitha Karnati.
-2) Select and Union operators are coded by Siva Narayana Kota
-3) sbt build file, environment setup and Join operators are coded by Vamshi Bitchala.
+1) Set, Split are implemented and Join operation is optimized Vamshi Bitchala.
+2) Project and minus operations are optimized by Likitha Karnati.
+3) Select and Union operators are optimized by Siva Narayana Kota
+
